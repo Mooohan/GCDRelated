@@ -16,6 +16,7 @@
 		0606BD27258AFFE100903E94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606BD26258AFFE100903E94 /* main.m */; };
 		0606BD31258AFFE100903E94 /* GCDAPiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606BD30258AFFE100903E94 /* GCDAPiTests.m */; };
 		0606BD3C258AFFE100903E94 /* GCDAPiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606BD3B258AFFE100903E94 /* GCDAPiUITests.m */; };
+		0606C6DF258C540900903E94 /* SIngleDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606C6DE258C540900903E94 /* SIngleDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		0606BD37258AFFE100903E94 /* GCDAPiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDAPiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0606BD3B258AFFE100903E94 /* GCDAPiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAPiUITests.m; sourceTree = "<group>"; };
 		0606BD3D258AFFE100903E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0606C6DD258C540900903E94 /* SIngleDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIngleDemo.h; sourceTree = "<group>"; };
+		0606C6DE258C540900903E94 /* SIngleDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIngleDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0606BD18258AFFDE00903E94 /* SceneDelegate.m */,
 				0606BD1A258AFFDE00903E94 /* ViewController.h */,
 				0606BD1B258AFFDE00903E94 /* ViewController.m */,
+				0606C6DD258C540900903E94 /* SIngleDemo.h */,
+				0606C6DE258C540900903E94 /* SIngleDemo.m */,
 				0606BD1D258AFFDE00903E94 /* Main.storyboard */,
 				0606BD20258AFFE100903E94 /* Assets.xcassets */,
 				0606BD22258AFFE100903E94 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0606BD1C258AFFDE00903E94 /* ViewController.m in Sources */,
+				0606C6DF258C540900903E94 /* SIngleDemo.m in Sources */,
 				0606BD16258AFFDE00903E94 /* AppDelegate.m in Sources */,
 				0606BD27258AFFE100903E94 /* main.m in Sources */,
 				0606BD19258AFFDE00903E94 /* SceneDelegate.m in Sources */,
@@ -375,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3593JT4FD7;
 				INFOPLIST_FILE = GCDAPi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3593JT4FD7;
 				INFOPLIST_FILE = GCDAPi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
